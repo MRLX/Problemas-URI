@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 	
-	int n, r, i, cont, J, num;
+	int n, r, i, cont, j, num;
 	while(scanf("%d%d", &n, &r) != EOF)
 	{
 		int v[r];
@@ -21,9 +21,9 @@ int main()
 			for(i=1;i<=n;++i)
 			{
 				cont = 0;
-				for(J=0;J<r;++J)
+				for(j=0;j<r;++j)
 				{
-					if(i==v[J])
+					if(i==v[j])
 						continue;
 					else
 					{
